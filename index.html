@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لعبة الذاكرة 🧠</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🧠 لعبة الذاكرة</h1>
+        <p class="instructions">ابحث عن الأزواج المتطابقة!</p>
+        
+        <div class="stats">
+            <div class="stat">
+                <p>المحاولات</p>
+                <p id="moves">0</p>
+            </div>
+            <div class="stat">
+                <p>الأزواج المجدة</p>
+                <p id="matched">0</p>
+            </div>
+            <div class="stat">
+                <p>الوقت</p>
+                <p id="timer">0s</p>
+            </div>
+        </div>
+
+        <div class="game-board" id="gameBoard"></div>
+
+        <button class="reset-btn" onclick="resetGame()">🔄 لعبة جديدة</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
